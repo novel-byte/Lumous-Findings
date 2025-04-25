@@ -10,7 +10,6 @@ int main(void) {
     float speed = 300.0f;
 
     InitWindow(screenWidth, screenHeight, "Move the Ball");
-
     SetTargetFPS(60);
 
     while(!WindowShouldClose()) {
