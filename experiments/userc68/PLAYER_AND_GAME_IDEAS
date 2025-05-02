@@ -1,0 +1,29 @@
+// some code i made maybe for the functionality of the program
+// just some pseudocode to put our minds in the right place
+
+// to describe the data each weapon will have to store
+typedef struct {
+  int damage;
+  int attack_speed;
+} weapon_t;
+
+// example weapon
+const weapon_t weapon_sword = {
+  .damage = 10,
+  .attack_speed = 15
+};
+
+// character field 
+typedef struct {
+  char character_id[64];
+  int health;
+  int stamina;
+  const weapon_t* weapon;
+} character_t;
+
+character_t player = {
+  .character_id = "i dunno",
+  .health = 100,
+  .stamina = 100,
+  .weapon = &weapon_sword
+};
