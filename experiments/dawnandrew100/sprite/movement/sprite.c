@@ -7,7 +7,6 @@ int main(void) {
   /* Sprite is from https://opengameart.org/content/classic-hero */
   Texture2D sprite = LoadTexture("mr_man.png");
   Vector2 spritePosition = {SCREEN_WIDTH / 2.0f, SCREEN_HEIGHT / 2.0f};
-  float ballRadius = 20.0f;
   float speed = 300.0f;
 
   SetTargetFPS(60);
