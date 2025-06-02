@@ -1,1 +1,4 @@
 *.exe
+*.json
+.clangd
+.cache
